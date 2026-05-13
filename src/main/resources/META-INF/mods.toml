@@ -1,0 +1,33 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="MIT"
+issueTrackerURL=""
+
+[[mods]]
+modId="musclemod"
+version="1.0.0"
+displayName="Muscle Mod"
+description='''
+Adiciona os comandos /muscle e /normal para alterar o modelo do jogador.
+'''
+
+[[dependencies.musclemod]]
+    modId="forge"
+    mandatory=true
+    versionRange="[47.2.0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.musclemod]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.20.1,1.21)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.musclemod]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[4.3,)"
+    ordering="NONE"
+    side="BOTH"
